@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import fetch from 'isomorphic-unfetch';
 //import GithubIcon from "../../../public/github-icon.svg";
 //import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import Link from "next/link";
@@ -16,6 +17,7 @@ const EmailSection = () => {
     const JSONdata = JSON.stringify(data);
     const endpoint = "/api/send";
 
+    
     const options = {
         method: 'POST',
         headers: {
