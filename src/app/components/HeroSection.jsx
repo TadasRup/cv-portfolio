@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from 'next/link';
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
@@ -31,18 +32,19 @@ const HeroSection = () => {
                 1000,
               ]}
               wrapper="span"
-              speed={50}
+              speed={40}
               repeat={Infinity}
             />
           </h1>
           <p className="text-[#ADB7BE] mb-6 text-lg lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
+          Born in Vilnius, Lithuania
+          <br></br>
+          Currently lives & works in Vilnius, Lithuania
           </p>
           <div>
-            <button to="/contact" className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4">
+            <Link href="#contact" className="bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white px-6 py-3 rounded-full mr-4">
               Hire Me
-            </button>
+            </Link>
             <button className="m-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 px-1 py-1 text-white rounded-full">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV

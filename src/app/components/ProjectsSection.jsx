@@ -98,6 +98,7 @@ const ProjectsSection = () => {
               transition={{ duration: 0.3, delay: index * 0.4 }}
             >
               <ProjectCard
+      
                 title={project.title}
                 description={project.description}
                 imgUrl={project.image}

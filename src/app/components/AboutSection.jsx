@@ -69,7 +69,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white texxt-base md:text-lg">
-           Will write soon
+          I am known for my unwavering positivity, dedication, and ability to work collaboratively within teams. I thrive in dynamic environments and am driven by the pursuit of excellence. I am excited to bring my skills, experience, and enthusiasm to a junior full-stack JavaScript position where I can make a meaningful impact and continue my journey of professional growth. Let's connect and explore opportunities together!
           </p>
           <div className="flex flex-row justify-start items-start mt-8">
             <TabButton
